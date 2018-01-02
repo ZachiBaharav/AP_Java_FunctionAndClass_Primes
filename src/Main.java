@@ -6,7 +6,7 @@
  *    Writing the 'prime' code within main
  *       Just review of class, main
  *    Writing the isPrime as a function
- *       function
+ *       function  = method
  *       parameters
  *       return values etc.
  *       Scope of variables
@@ -98,6 +98,9 @@ public class Main {
         System.out.println("\n\nSecond method: next10(int[] p) passing array an argument");
         int[] p10b = new int[10];
         // Function signature!
+        //          https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html 
+        //  Function signature: name and arguments. NOT return type or the modifiers
+        // Function overloading
         p.next10(p10b);        
         for (int pp : p10b)
             System.out.print( pp + " , ");
